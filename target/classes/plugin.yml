@@ -1,0 +1,24 @@
+name: Votes
+version: 1.0.0
+main: com.meqxsdev.votes.VotesPlugin
+api-version: 1.21
+author: MeqxsDev
+description: A voting plugin for Paper servers
+
+commands:
+  votes:
+    description: Create a new vote (OP only)
+    usage: /votes
+    permission: votes.create
+  vote:
+    description: Open the voting GUI
+    usage: /vote
+    permission: votes.vote
+
+permissions:
+  votes.create:
+    description: Allows creating votes
+    default: op
+  votes.vote:
+    description: Allows voting
+    default: true

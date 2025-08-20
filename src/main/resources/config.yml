@@ -1,0 +1,32 @@
+# Votes Plugin Configuration
+
+# Maximum number of options allowed per vote
+max_options: 5
+
+# Minimum number of options required per vote
+min_options: 1
+
+# Whether to show vote results immediately after voting
+show_results_after_vote: true
+
+# Whether to allow players to see current vote counts in the GUI
+show_vote_counts_in_gui: true
+
+# Message settings
+messages:
+  prefix: "&8[&bVotes&8] "
+  vote_created: "&aVote created successfully!"
+  vote_announcement: "&6=== NEW VOTE ==="
+  vote_click_to_vote: "&eClick here to vote: &a/vote"
+  no_active_vote: "&cThere is no active vote at the moment!"
+  already_voted: "&cYou have already voted in this round!"
+  vote_recorded: "&aYour vote has been recorded!"
+  permission_denied: "&cYou don't have permission to create votes!"
+  vote_creation_started: "&aVote creation started!"
+  enter_title: "&ePlease enter the vote title (use & for colors):"
+  title_example: "&7Example: &b&lWhat should we build next?"
+  enter_option_count: "&eHow many options should this vote have? (1-5):"
+  invalid_number: "&cPlease enter a valid number!"
+  invalid_option_count: "&cPlease enter a number between 1 and 5!"
+  enter_option: "&eEnter option {number}:"
+  vote_creation_cancelled: "&cVote creation cancelled."

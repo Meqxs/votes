@@ -1,0 +1,10 @@
+com/meqxsdev/votes/listeners/InventoryListener.class
+com/meqxsdev/votes/models/Vote.class
+com/meqxsdev/votes/commands/VotesCommand.class
+com/meqxsdev/votes/listeners/ChatListener.class
+com/meqxsdev/votes/gui/VoteGUI.class
+com/meqxsdev/votes/commands/VoteCommand.class
+com/meqxsdev/votes/VotesPlugin.class
+com/meqxsdev/votes/managers/VoteManager$VoteCreationStep.class
+com/meqxsdev/votes/managers/VoteManager.class
+com/meqxsdev/votes/managers/VoteManager$VoteCreationSession.class
